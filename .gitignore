@@ -40,3 +40,7 @@ proguard/
 
 # gradle specific files
 .gradle
+
+# external files
+.hgignore
+.hg/
