@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply plugin: 'android-maven'
+apply from : "$project.rootDir/publishing.gradle"
 
 android {
     compileSdkVersion 21
@@ -9,7 +11,7 @@ android {
         minSdkVersion 10
         targetSdkVersion 21
         versionCode 1
-        versionName "1.0"
+        versionName "0.0.1"
     }
     buildTypes {
         release {
